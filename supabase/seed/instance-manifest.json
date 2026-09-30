@@ -3,8 +3,8 @@
   "schema_version": 1,
   "layers": {
     "schema": {
-      "migration_head": "20260930215100",
-      "migrations_count": 632,
+      "migration_head": "20261001000000",
+      "migrations_count": 633,
       "migrations": [
         {
           "version": "00000000000000",
@@ -2533,21 +2533,25 @@
         {
           "version": "20260930215100",
           "name": "kontrollerna-i-samma-transaktion-har-en-ordning"
+        },
+        {
+          "version": "20261001000000",
+          "name": "content-holds-until-the-company-knows-itself"
         }
       ]
     },
     "skills": {
-      "seed_hash": "sha256:526079b65abc4fa5814e7ab7dff0aed47bb5144ae88465a465ad9eda948aa075",
+      "seed_hash": "sha256:c8279ee3879cd83e78ef8f950f18a645986b92ca4cbada1f7a37e237313358c0",
       "skill_count": 609,
       "module_count": 68
     },
     "edge_functions": {
       "count": 77,
-      "shared_hash": "sha256:ae36823ad765bcf65bf950b2b4d19849d7d369dd7a7d42113a05c3835c028566",
+      "shared_hash": "sha256:f2ee778bbb8b0a7f795a5bd62b4769c1cd55c10598c194a163d77635d109904d",
       "functions": {
         "a2a": "sha256:0f4de74f6b9d1ac7c4b77af4bfcf1cb3ab47d56b3cfde9d62ec27071ae3551c2",
         "agent-card": "sha256:9486e3f1a5360c2d0fcfb032e24760eb337757878c51f4eeac4adf786432cddb",
-        "agent-execute": "sha256:f649cbfa68545fea71cbdc8f5d5a6d09e6bb177bd692c112e6c94147ae5a88fb",
+        "agent-execute": "sha256:7c9a9578e6c950aa1a42adb7d95a91e60b997db5e53d2f32368cea46bbb06c85",
         "agent-operate": "sha256:9edc79c928f9920a74d8cfbba484aeabe7b21fba0018ae2ec813031593a74798",
         "ai-task": "sha256:9dd415b357bf7fecf39ad56ee6f8cdc3c8ac4cf688f0313b83211eef5742b3af",
         "automation-dispatcher": "sha256:b80bc44ce9e6ae3757680b3c83e9f7aa33d669584bcab5f45f7c229d0ecd88b3",
