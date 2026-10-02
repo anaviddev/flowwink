@@ -3,8 +3,8 @@
   "schema_version": 1,
   "layers": {
     "schema": {
-      "migration_head": "20261002200000",
-      "migrations_count": 638,
+      "migration_head": "20261002210000",
+      "migrations_count": 639,
       "migrations": [
         {
           "version": "00000000000000",
@@ -2557,6 +2557,10 @@
         {
           "version": "20261002200000",
           "name": "villkorslanken-far-ett-engelskt-standardvarde"
+        },
+        {
+          "version": "20261002210000",
+          "name": "namnet-bredvid-loggan-har-en-agare"
         }
       ]
     },
