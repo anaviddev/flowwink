@@ -237,6 +237,14 @@ theme-aware: `logo_dark_url` / `primary_color_dark` are what the header, footer 
 chat widget show in dark theme; `heading_font` / `body_font` split `font_family`.
 Empty string clears a dark override.
 
+**`sync_ad_metrics`** — the Paid Growth ad ledger's feed: campaign-level spend /
+impressions / clicks / conversions from the Meta ad account connected through
+Composio (toolkit `metaads`) into `ad_campaigns`. `dry_run: true` reports without
+writing. Nothing else writes `ad_campaigns.metrics`, so if the Growth dashboard
+shows zeros, this has not run (or Meta Ads is not connected). There is no
+`META_ADS_ACCESS_TOKEN`; a Composio-backed integration is configured when its
+connected account exists (`via: 'composio'` in `useIntegrations.tsx`).
+
 **`test_form_delivery`** — "if a visitor submits this form, who gets what?" without a
 submission, a lead or an email: `block_id` (or `page_slug` when the page has one form),
 `mode: dry_run` (default) reports every rail (storage, lead, webhook, notification email,
