@@ -584,6 +584,7 @@ export const SKILL_OWNER_MODULE: Readonly<Record<string, string>> = Object.freez
   "support_assign_conversation": "liveSupport",
   "support_get_feedback": "liveSupport",
   "support_list_conversations": "liveSupport",
+  "sync_ad_metrics": "paidGrowth",
   "sync_docs_from_github": "docs",
   "sync_handbook_from_github": "handbook",
   "sync_skills_from_code": "platform",
