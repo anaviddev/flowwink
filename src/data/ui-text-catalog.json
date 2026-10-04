@@ -256,6 +256,11 @@
       "fallback": "Thanks for the feedback!"
     },
     {
+      "key": "chat.deleteConversation",
+      "group": "chat",
+      "fallback": "Delete conversation"
+    },
+    {
       "key": "chat.feedback.error",
       "group": "chat",
       "fallback": "Could not save feedback"
@@ -1039,6 +1044,16 @@
       "key": "terms.updated",
       "group": "terms",
       "fallback": "Updated"
+    },
+    {
+      "key": "youtube.defaultTitle",
+      "group": "youtube",
+      "fallback": "Video"
+    },
+    {
+      "key": "youtube.play",
+      "group": "youtube",
+      "fallback": "Play video"
     }
   ]
 }
